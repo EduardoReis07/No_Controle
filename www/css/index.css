@@ -1,0 +1,167 @@
+/* Menu Principal - Lista de Itens */
+
+#list{
+    overflow: auto;
+    height: 79vh;    
+}
+
+.list__item{
+    width: 90vw;
+    height: 50px;
+    padding: 6px;
+
+    box-sizing: border-box;
+    border: 2px solid #4ebbb5;
+    border-radius: 20px;
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    background-color: #90d3e7;
+    color: #333333;
+
+    font-size: 1.2em;
+    font-weight: 800;
+
+    margin-top: 18px;
+    margin-left: 5vw;
+}
+
+.deleteItem{
+    width: 30px;
+    height: 30px;
+    padding-top: 1px;
+
+    background-color: #C95B57;
+    border: transparent;
+    border-radius: 50%;
+    
+    float: right;
+
+    color: #0c0c0c;
+    font-size: 1em;
+    font-weight: 800;
+}
+
+/* Menu Principal - Btn's de Add e Remover Itens */
+
+.btn{
+    position: absolute;
+    z-index:9;
+    text-decoration: none;
+    background-color: transparent;
+    border: transparent;
+
+    width: 48px;
+    height: 48px;
+
+    top: 88%;
+    left: 90%;
+    margin-top: -6px;
+    margin-left: -24px;
+}
+
+.btn:hover,
+.btnDrop:hover{
+    transform: scale(1.2);
+}
+
+.bi-plus-circle-fill{
+    color: #306B88;
+}
+
+.bi-plus-circle-fill:hover{
+    color: #245872;
+}
+
+.btnDrop{
+    position: absolute;
+    z-index:9;
+    text-decoration: none;
+    background-color: #c54340;
+    border: transparent;
+
+    width: 42px;
+    height: 42px;
+    padding-top: 6px;
+
+    top: 88%;
+    left: 77%;
+    margin-top: -6px;
+    margin-left: -24px;
+
+    border: 2px solid #eb6c60;
+    border-radius: 50%;
+}
+
+.bi-trash-fill{
+    color: #111;
+}
+
+.bi-trash-fill:hover{
+    color: #333;
+}
+/* Menu Principal - Formulário */
+
+.form{
+    position: absolute;
+    top: 0%;
+
+    animation: up 1s;
+}
+
+.input{
+    width: 80%;
+    height: 7vh;
+
+    margin: 10%;
+
+    font-size: 1.2em;
+    color: #111;
+    
+    border: 1px solid rgba(0, 0, 0, .4);
+    border-radius: 15px;
+}
+
+.btnForm{
+    width: 35%;
+    height: 40px;
+
+    border-radius: 25px;
+
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #111;
+
+    margin-top: 45%;
+}
+
+#btnCancel{
+    border: 1px solid lightcoral;
+    background-color: #f53412;
+}
+
+#btnAdd{
+    border: 1px solid lime;
+    background-color: limegreen;   
+}
+
+/* Menu Principal - Div Total*/
+
+#totalGasto{
+    width: 65%;
+    height: 2em;
+    padding: 5px;
+    
+    font-size: 1.5em;
+    font-weight: 700;
+
+    margin-left: 3%;
+
+    background-color: #90d3e7;
+    color: #222222;
+
+    border: 2px solid #333333;
+    border-radius: 25px;
+}
